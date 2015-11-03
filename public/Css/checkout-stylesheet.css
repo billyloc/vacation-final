@@ -1,0 +1,89 @@
+	/****************************************
+  Inherited Syles
+*****************************************/
+
+		html {
+		    box-sizing: border-box;
+		    color: black;
+		    font-family: "Open Sans", sans-serif;
+		}
+
+		*, *::before, *::after {
+		    box-sizing: inherit;
+		    color: inherit;
+		    font-family: inherit;
+		}
+		header {
+			padding: 50px;
+			position: relative;
+			background-color: green;
+		}
+		.logo {
+			position: absolute;
+			top: 0;
+			left: 0;
+			color: blue;
+			font-size: 35px;
+		}
+		.login {
+			position: absolute;
+			bottom: 5px;
+			right: 0;
+		}
+		nav {
+			display: flex;
+			background-color: #1C2C3D;
+			height: 40px;
+			color: white;
+			margin: 0px;
+		}
+		a {
+			flex: 2;
+			text-align: center;
+			margin-top: 10px;
+		}
+		input {
+			color: black;
+			height: 100%;
+			width: 200px;
+			background-color: white;
+		}
+		body {
+			background-color: #F7FAFA;
+		}		
+		body {
+			background-color: #F7FAFA;
+		}
+		.container {
+			width: 960px;
+			margin: 0 auto;
+		}
+		.content {
+			margin: 0 auto;
+			text-align: center;
+			border: 1px solid lightgrey;
+			border-radius: 10px;
+			width: 400px;
+			margin-top: 100px;
+		}
+		form input {
+			width: 350px;
+			height: 40px;
+			margin: 10px;
+		}
+		button {
+			width: 350px;
+			background-color: #2BDE73;
+			height: 40px;
+			color: white;
+			margin: 10px;
+			font-size: 20px;
+		}
+		p {
+			background-color: #F8F8F9;
+			padding: 25px;
+			margin: 0;
+		}
+		form a {
+			color: green;
+		}
